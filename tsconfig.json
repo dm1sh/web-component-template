@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "es6",
+    "moduleResolution": "node",
+    "lib": ["dom"],
+    "declaration": true,
+    "declarationMap": true,
+    "experimentalDecorators": true
+  },
+  "include": ["src/**/*.ts"]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "my-component",
+  "version": "0.0.1",
+  "main": "dist/bundle.cjs.js",
+  "module": "dist/bundle.esm.js",
+  "scripts": {
+    "start": "rollup --config rollup.config.demo.js --watch",
+    "build": "rollup --config rollup.config.js"
+  },
+  "devDependencies": {
+    "@open-wc/rollup-plugin-html": "^1.2.5",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "esbuild": "^0.12.24",
+    "rollup": "^2.56.3",
+    "rollup-plugin-esbuild": "^4.5.0",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-string": "^3.0.0",
+    "typescript": "^4.4.2"
+  }
+}
